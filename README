@@ -1,0 +1,15 @@
+This is a tomato counter (see http://www.pomodorotechnique.com/ for more details how pomodoro techinque works).
+It's a pre-release so it's not perfeclty working (i.e. it does not constains prerequisite for dependencies so you must supply them by hand).
+
+It depends upon
+
+
+DateTime::Duration
+DateTime::Format::Duration
+
+
+so before use this program install them by
+
+cpan -i DateTime::Duration
+cpan -i DateTime::Format::Duration
+
